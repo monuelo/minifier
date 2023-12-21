@@ -1,6 +1,6 @@
 // Copyright 2018-2021 the Deno authors. All rights reserved. MIT license.
 
-import { encode as base64Encode } from "https://deno.land/std/encoding/base64.ts";
+import { encodeBase64 as base64Encode } from "https://deno.land/std/encoding/base64.ts";
 
 // 1. build wasm
 async function buildWasm(path: string): Promise<void> {
